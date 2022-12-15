@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.testapp.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first" >
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.testapp.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second" >
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_eightBall2"
+            app:destination="@id/eightBall2" />
+        <action
+            android:id="@+id/action_SecondFragment_to_kelvinCalculator"
+            app:destination="@id/kelvinCalculator" />
+        <action
+            android:id="@+id/action_SecondFragment_to_sleepDebt"
+            app:destination="@id/sleepDebt" />
+        <action
+            android:id="@+id/action_SecondFragment_to_rockPaperScissors"
+            app:destination="@id/rockPaperScissors" />
+        <action
+            android:id="@+id/action_SecondFragment_to_trainingDays"
+            app:destination="@id/trainingDays" />
+    </fragment>
+    <activity
+        android:id="@+id/eightBall2"
+        android:name="com.example.testapp.EightBall"
+        android:label="activity_eight_ball"
+        tools:layout="@layout/activity_eight_ball" />
+    <activity
+        android:id="@+id/kelvinCalculator"
+        android:name="com.example.testapp.KelvinCalculator"
+        android:label="activity_kelvin_calculator"
+        tools:layout="@layout/activity_kelvin_calculator" />
+    <activity
+        android:id="@+id/sleepDebt"
+        android:name="com.example.testapp.SleepDebt"
+        android:label="activity_sleep_debt"
+        tools:layout="@layout/activity_sleep_debt" />
+    <activity
+        android:id="@+id/rockPaperScissors"
+        android:name="com.example.testapp.RockPaperScissors"
+        android:label="activity_rock_paper_scissors"
+        tools:layout="@layout/activity_rock_paper_scissors" />
+    <activity
+        android:id="@+id/trainingDays"
+        android:name="com.example.testapp.TrainingDays"
+        android:label="activity_training_days"
+        tools:layout="@layout/activity_training_days" />
+</navigation>

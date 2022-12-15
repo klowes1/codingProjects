@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcome">Welcome</string>
+    <string name="exploreButton">Explore</string>
+    <string name="magic_eight_ball">Magic Eight Ball</string>
+    <string name="sleep_debt_calculator">Sleep Debt Calculator</string>
+    <string name="rock_paper_scissors">Rock Paper Scissors</string>
+    <string name="training_days_calculator">Training Days Calculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="magic_eight_ball_title">Magic Eight Ball</string>
+    <string name="eight_ball_project_description">Input your question you would like to ask the Magic Eight ball below.Then press ask to reveal the answer you are looking for.</string>
+    <string name="eight_Ball_Question_Input">Enter the question you want to ask here.</string>
+    <string name="eight_ball_action_button">Ask Question</string>
+    <string name="enter_name_here">Enter Name Here</string>
+    <string name="title_activity_eight_ball">EightBallActivity</string>
+    <string name="kelvin_calc_proj_des">This is a calculator to calculate a specific temperature in Kelvin, then convert it to Celsius, Fahrenheit and Newton.</string>
+    <string name="enter_temperature_in_kelvin_here">Enter Temperature In Kelvin Here.</string>
+    <string name="calculate">Calculate</string>
+    <string name="kelvin_calculator">Kelvin Calculator</string>
+    <string name="default_value">392</string>
+    <string name="kelvin_temperature_calculator">Kelvin Temperature Calculator</string>
+    <string name="sleep_debt_calculator_title">Sleep Debt Calculator</string>
+    <string name="sleep_debt_proj_des">Input the amount of sleep you have gotten each day this week in the respective day. Then, press calculate to reveal how much sleep you got.</string>
+    <string name="mondys_sleep_hours">Mondys Sleep Hours</string>
+    <string name="tuesdays_sleep_hours">Tuesdays Sleep Hours</string>
+    <string name="wednesdays_sleep_hours">Wednesdays Sleep Hours</string>
+    <string name="thursdays_sleep_hours">Thursdays Sleep Hours</string>
+    <string name="fridays_sleep_hours">Fridays Sleep Hours</string>
+    <string name="saturdays_sleep_hours">Saturdays Sleep Hours</string>
+    <string name="sundays_sleep_hours">Sundays Sleep Hours</string>
+    <string name="mondays_sleep_hours">Mondays Sleep Hours</string>
+    <string name="calculate_sleep_hours">Calculate</string>
+    <string name="rock_paper_scissors_Title">Rock Paper Scissors</string>
+    <string name="rps_proj_des">This is the game rock, paper or scissors. Simply press your selection below and see if you can beat the computer</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+    <string name="enter_name_here_eight_ball">Enter Name Here</string>
+    <string name="enter_the_question_you_want_to_ask_here">Enter the question you want to ask here.</string>
+    <string name="training_days_calculator_title">Training Days Calculator</string>
+    <string name="training_days_proj_des">This is a calculator to determine how many days you need to train for your respective event. Simply pick between the options below and find out.</string>
+    <string name="enter_name_here_training_days">Enter Name Here</string>
+    <string name="marathon">Marathon</string>
+    <string name="traithlon">Traithlon</string>
+    <string name="pentathlon">Pentathlon</string>
+</resources>
